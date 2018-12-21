@@ -45,11 +45,11 @@
     </config-file>
 
     <config-file target="*-Info.plist" parent="NSMicrophoneUsageDescription">
-      <string>Request to use Microphone</string>
+      <string>Use your microphone to dictate text so you don't have to type.</string>
     </config-file>
 
     <config-file target="*-Info.plist" parent="NSSpeechRecognitionUsageDescription">
-      <string>Request to use Speech Recognition</string>
+      <string>Use Speech Recognition to quickly add tasks with your voice instead of typing.</string>
     </config-file>
 
     <header-file src="src/ios/SpeechRecognition.h"/>
